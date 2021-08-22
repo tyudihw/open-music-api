@@ -2,6 +2,8 @@
 /* eslint-disable no-underscore-dangle */
 /* eslint-disable linebreak-style */
 
+const { nanoid } = require('nanoid');
+
 class NotesService {
   constructor() {
     this._notes = [];
