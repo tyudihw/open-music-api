@@ -1,7 +1,7 @@
 {
-  "name": "notes-app-back-end",
+  "name": "open-music-api-v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Open Music API Ver.1.0",
   "main": "index.js",
   "scripts": {
     "start-prod": "NODE_ENV=production node ./src/server.js",
@@ -10,7 +10,7 @@
     "migrate": "node-pg-migrate"
   },
   "keywords": [],
-  "author": "",
+  "author": "tyudihw",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^7.21.0",
@@ -25,5 +25,13 @@
     "nanoid": "^3.1.25",
     "node-pg-migrate": "^5.10.0",
     "pg": "^8.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyudihw/open-music-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tyudihw/open-music-api/issues"
+  },
+  "homepage": "https://github.com/tyudihw/open-music-api#readme"
 }
